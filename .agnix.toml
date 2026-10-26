@@ -1,0 +1,16 @@
+severity = "Warning"
+exclude = ["node_modules/**", ".git/**"]
+target = "ClaudeCode"
+tools = []
+locale = "en"
+
+[rules]
+
+disabled_rules = [
+    "CC-SK-017",   # Intentional - version is a client-specific frontmatter field
+    "XP-003",      # Intentional - lib/cross-platform/RESEARCH.md documents all platform paths
+]
+
+[tool_versions]
+
+[spec_revisions]
